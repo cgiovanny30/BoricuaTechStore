@@ -44,8 +44,8 @@ Estructura del proyecto:
 - images/
 - README.txt
 
-Enlace del proyecto en GitHub:
-Se añadirá después de publicar el proyecto.
+Enlace del proyecto en GitHub Pages:
+https://cgiovanny30.github.io/BoricuaTechStore/
 
 Autor:
 Christopher Maldonado
