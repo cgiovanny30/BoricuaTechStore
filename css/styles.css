@@ -1,0 +1,120 @@
+/* ========================================
+   BORICUA TECH STORE
+   Hoja de estilos personalizada
+   ======================================== */
+
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #212529;
+    margin: 0;
+}
+
+/* Barra de navegación */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Sección principal de bienvenida */
+main > section:first-child {
+    background: linear-gradient(135deg, #0d6efd, #212529);
+    color: white;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    max-width: 100%;
+}
+
+main > section:first-child h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* Tarjetas de productos */
+.producto {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre un producto */
+.producto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+/* Botones */
+.btn {
+    border-radius: 8px;
+}
+
+/* Información adicional */
+aside {
+    border-top: 1px solid #ddd;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 0;
+}
+
+/* ========================================
+   DISEÑO RESPONSIVO
+   ======================================== */
+
+/* Ajustes para tabletas y celulares */
+@media (max-width: 768px) {
+
+    main > section:first-child h1 {
+        font-size: 2rem;
+    }
+
+    main > section:first-child {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .producto {
+        margin-bottom: 15px;
+    }
+}
+/* ========================================
+   CARRUSEL DE LA PÁGINA PRINCIPAL
+   ======================================== */
+
+.imagen-carrusel {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Fondo para mejorar la lectura del texto */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Ajuste del carrusel para celulares */
+@media (max-width: 768px) {
+
+    .imagen-carrusel {
+        height: 280px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}

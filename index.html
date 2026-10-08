@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Boricua Tech Store | Inicio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="index.html">
+                    Boricua Tech Store
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="laptops.html">Laptops</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gaming.html">Gaming</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="celulares.html">Celulares</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="accesorios.html">Accesorios</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+<li class="nav-item">
+    <a class="nav-link" href="faq.html">FAQ</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="politicas.html">Políticas</a>
+</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección de bienvenida -->
+        <section class="container text-center py-5">
+            <h1>Bienvenido a Boricua Tech Store</h1>
+
+            <p class="lead">
+                Tecnología, accesorios y equipos para estudiar,
+                trabajar y disfrutar.
+            </p>
+
+            <a href="productos.html" class="btn btn-primary">
+                Ver productos
+            </a>
+        </section>
+
+<!-- Carrusel de imágenes -->
+<section class="container py-5">
+
+    <h2 class="text-center mb-4">
+        Descubre nuestra tecnología
+    </h2>
+
+    <div id="carruselPrincipal"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+
+            <button type="button"
+                    data-bs-target="#carruselPrincipal"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Laptop">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carruselPrincipal"
+                    data-bs-slide-to="1"
+                    aria-label="Gaming">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carruselPrincipal"
+                    data-bs-slide-to="2"
+                    aria-label="Celular">
+            </button>
+
+        </div>
+
+
+        <!-- Imágenes -->
+        <div class="carousel-inner rounded shadow">
+
+            <!-- Laptop -->
+            <div class="carousel-item active">
+
+                <img src="images/laptop.png"
+                     class="d-block w-100 imagen-carrusel"
+                     alt="Laptop">
+
+                <div class="carousel-caption">
+
+                    <h3>Laptops</h3>
+
+                    <p>
+                        Equipos para estudiar, trabajar
+                        y crear tus proyectos.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Gaming -->
+            <div class="carousel-item">
+
+                <img src="images/gaming.png"
+                     class="d-block w-100 imagen-carrusel"
+                     alt="Equipo Gaming">
+
+                <div class="carousel-caption">
+
+                    <h3>Gaming</h3>
+
+                    <p>
+                        Lleva tu experiencia de juego
+                        al próximo nivel.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Celular -->
+            <div class="carousel-item">
+
+                <img src="images/celular.png"
+                     class="d-block w-100 imagen-carrusel"
+                     alt="Celular">
+
+                <div class="carousel-caption">
+
+                    <h3>Celulares</h3>
+
+                    <p>
+                        Tecnología para mantenerte
+                        conectado todos los días.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Botón anterior -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carruselPrincipal"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+
+            <span class="visually-hidden">
+                Anterior
+            </span>
+
+        </button>
+
+
+        <!-- Botón siguiente -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carruselPrincipal"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+
+            <span class="visually-hidden">
+                Siguiente
+            </span>
+
+        </button>
+
+    </div>
+
+</section>
+        <!-- Sección de productos destacados -->
+        <section class="container py-5">
+
+            <h2 class="text-center mb-4">
+                Productos destacados
+            </h2>
+
+            <div class="row g-4">
+
+                <article class="col-md-4">
+                    <div class="card h-100 producto">
+
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                Laptop
+                            </h3>
+
+                            <p class="card-text">
+                                Equipo ideal para estudiar,
+                                trabajar y realizar proyectos.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary ver-detalles">
+                                Ver detalles
+                            </button>
+                        </div>
+
+                    </div>
+                </article>
+
+
+                <article class="col-md-4">
+                    <div class="card h-100 producto">
+
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                Smartphone
+                            </h3>
+
+                            <p class="card-text">
+                                Mantente conectado con tecnología
+                                moderna y práctica.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary ver-detalles">
+                                Ver detalles
+                            </button>
+                        </div>
+
+                    </div>
+                </article>
+
+
+                <article class="col-md-4">
+                    <div class="card h-100 producto">
+
+                        <div class="card-body">
+                            <h3 class="card-title h5">
+                                Accesorios Gaming
+                            </h3>
+
+                            <p class="card-text">
+                                Mejora tu experiencia de juego
+                                con nuestros accesorios.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary ver-detalles">
+                                Ver detalles
+                            </button>
+                        </div>
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Información adicional -->
+        <aside class="bg-light py-4">
+            <div class="container text-center">
+
+                <h2 class="h4">
+                    Compra con confianza
+                </h2>
+
+                <p>
+                    En Boricua Tech Store buscamos ofrecer productos
+                    tecnológicos de manera sencilla, organizada y accesible.
+                </p>
+
+            </div>
+        </aside>
+
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-1">
+            &copy; 2026 Boricua Tech Store
+        </p>
+
+        <p class="mb-0">
+            Proyecto académico de desarrollo web
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript personalizado -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
